@@ -691,8 +691,8 @@ end)
     NamePlayer.Text = GuiConfig["Name Player"]
    NamePlayer.TextColor3 = Color3.fromRGB(230.00000149011612, 230.00000149011612, 230.00000149011612)
    NamePlayer.TextSize = 16
-   NamePlayer.TextWrapped = false  -- Tắt xuống dòng
-   NamePlayer.TextTruncate = Enum.TextTruncate.AtEnd  -- Thêm dòng này!
+   NamePlayer.TextWrapped = false 
+   NamePlayer.TextTruncate = Enum.TextTruncate.AtEnd 
     NamePlayer.TextXAlignment = Enum.TextXAlignment.Left
 	NamePlayer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	NamePlayer.BackgroundTransparency = 0.9990000128746033
