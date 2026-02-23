@@ -382,7 +382,7 @@ function WazureV1:Start(GuiConfig)
 	NameHub.Text = GuiConfig.Name
 	NameHub.TextColor3 = Color3.fromRGB(202.00000315904617, 251.00000023841858, 255)
 	NameHub.TextSize = 24
-	NameHub.TextWrapped = true
+	NameHub.TextWrapped = false
 	NameHub.TextXAlignment = Enum.TextXAlignment.Left
 	NameHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	NameHub.BackgroundTransparency = 0.9990000128746033
@@ -2597,4 +2597,5 @@ end)
 	return Tabs
 end
 return WazureV1
+
 
