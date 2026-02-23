@@ -1,6 +1,9 @@
+--[[
+kid diem skid cc
+]]
 local TextService = game:GetService("TextService")
 local TweenService = game:GetService("TweenService")
-local SC_UI_Name = "fan anh vinhuchi"
+local SC_UI_Name = "Geta Bi Thieu Nang"
 local existingUI = game:GetService("CoreGui"):FindFirstChild(SC_UI_Name)
 
 if existingUI then
@@ -231,6 +234,6 @@ function Notify(Configs)
     end)
 end
 
-Notify = Notify
+getgenv().Notify = Notify
 
 return Notify
