@@ -10,7 +10,7 @@ local Notify = WazureV1:Notify({
 
 local WazureGui = WazureV1:Start({
     ["Name"] = "Sang",
-    ["Logo Player"] = getgenv().uid or "rbxassetid://89520197652800",
+    ["Logo Player"] = getgenv().uid and ("rbxassetid://" .. getgenv().uid) or "rbxassetid://89520197652800",
     ["Name Player"] = getgenv().name or "username",
     ["Tab Width"] = 120,
     ["Color"] = Color3.fromRGB(6, 141, 234),
