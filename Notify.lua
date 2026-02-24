@@ -234,6 +234,6 @@ function Notify(Configs)
     end)
 end
 
-getgenv().Notify = Notify
+Wazure:Notify = Notify
 
 return Notify
