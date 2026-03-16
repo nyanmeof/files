@@ -78,7 +78,7 @@ Tabs["Main"]:AddToggle("AUTOEXE", {
         getgenv().AutoExe = state
 
         if state and queue_on_teleport then
-            queue_on_teleport("print('script teleported')")
+            queue_on_teleport(loadstring(game:HttpGet("https://raw.githubusercontent.com/nyanmeof/files/refs/heads/main/Nyan-Hub.lua"))())
         end
     end
 })
